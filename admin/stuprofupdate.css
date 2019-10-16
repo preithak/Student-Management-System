@@ -1,0 +1,127 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url(../images/bodybg.jpg);
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+h1.prof{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    width: 20%;
+
+}
+.prof1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+h1.pers{
+	text-align: center;
+}
+fieldset{
+	margin-top: 5%;
+  background-color:#e6e6e6;
+  width:30%;
+  padding:20px;	
+  height: auto;
+  display: inline-block;
+  margin-left: 20px;
+  border: 2px solid black;
+}
+label{
+	margin-top: 5px;
+	padding: 25px 25px;
+	margin-bottom: 5px;
+	line-height: 250%;
+}
+.links{
+	 display: inline-block;
+    width: 400px;
+    height: auto;
+    margin-left: 150px;  
+    border: 2px solid black;
+}
+h2.link1{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.footer {
+  margin-top: 2%;
+  position: bottom;
+   left: 0;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-image: url(../images/footerbg1.jpg);
+}
+p.sitecredit{
+	float: right;
+	color: white;
+	font-family: Courier New;
+	margin-right: 5px;
+}
+p.designcredit{
+	float: right;
+	color: white;
+	font-family: Courier New;
+	margin-right: 5px;
+}
+button {
+  background-color: #3385ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+h3.button{
+  text-decoration: none;
+}
+.chgusn{
+  text-decoration: none;
+}
+.chgusn:hover{
+  text-decoration: underline;
+}
