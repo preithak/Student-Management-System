@@ -1,0 +1,163 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url(images/bodybg.jpg);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+p.abt{
+	padding: 5%;
+	font-size: 100%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+.banner{
+	margin: auto;
+	background: url(images/image1.jpg) no-repeat;
+	background-size:cover;
+	border: 2px solid black;
+	width: 70%;
+	height: 400px;
+	opacity: 0.88;
+}
+.box{
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 1px;
+	background-color: #ffffff;
+	opacity: 0.8;
+
+}
+.box h1{
+	text-align: center;
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+	font-size: 50px;
+}
+.auto{
+	height: 300px;
+	margin: auto;
+}
+.adminlog{
+	margin-top: 10px;
+	height:270px;
+	margin-left: 202px;
+	width: 300px;
+	float:left;
+	background: #734d26;
+	opacity: 0.9;
+	box-shadow: 10px 10px 5px #404040;
+}
+.adminlog h1 {
+	text-align: center;
+}
+button {
+    background-color: #996633;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+.input{
+	padding: 16px;
+}
+.about{
+	margin-top: 10px;
+	height: 270px;
+	width: 300px;
+	float: left;
+	margin-left: 23px;
+	background: #734d26;
+	opacity: 0.9;
+	box-shadow: 10px 10px 5px #404040;
+}
+.about h1 {
+	text-align: center;
+}
+.userlog{
+	margin-top: 10px;
+	height: 270px;
+	width: 300px;
+	float: left;
+	margin-left: 23px;
+	background: #734d26;
+	opacity: 0.9;
+	box-shadow: 10px 10px 5px #404040;
+}
+.userlog h1 {
+	text-align: center;
+}
+.radio1{
+	margin-left: 35px;
+}
+.footer{
+	position: bottom;
+	left: 0;
+   	bottom: 0;
+	height: 50px;
+	background-image: url(images/footerbg.jpg);
+	width: 100%;
+
+}
+p.sitecredit{
+	float: right;
+	color: white;
+	font-family: Courier New;
+	margin-right: 5px;
+}
+p.designcredit{
+	float: right;
+	color: white;
+	font-family: Courier New;
+	margin-right: 5px;
+}
+a.signup:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a.signup:visited {
+    text-decoration: none;
+    color: #330066;
+}
+
+a.signup:hover {
+    text-decoration: underline;
+}
+
+a.signup:active {
+    text-decoration: underline;
+}

@@ -1,0 +1,141 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url(images/bodybg.jpg);
+}
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea, select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-height: 70%;
+}
+h2.upd, legend{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    /*text-align: center;*/
+    font-size: 35px;
+
+}
+input[type=email], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+p{
+    margin-top: 2%;
+}
+button {
+    background-color: #3399ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.7;
+}
+button:hover {
+    opacity: 1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+fieldset{
+    background-color: rgba(204, 102, 0, 0.3);
+    width: 53%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    border-style: inset;
+    border-radius: 2px;
+    height: 50%;
+    
+}
+section.sec{
+    position:  fixed;
+
+    bottom: 0px;
+    background-color: rgba(204, 102, 0, 0.3);
+
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 78%;
+    margin-bottom: 10px;
+    border-style: inset;
+    border-radius: 2px;
+}
+section.dev{
+    background-color: rgba(13, 13, 13, 0.7);
+    width: 100%;
+    margin-top: 5%;
+     
+   /* margin-bottom: 10px;
+    /*border-style: inset;*/
+    border-radius: 30px 0px 0px 0px;
+    height: auto;
+    /*box-shadow: 10px 10px 5px #404040;*/
+    position: absolute;
+    bottom:0;
+}
+.bye{
+    color: white;
+    width: 95%;
+    margin-left: 3%;
+    font-family: Courier New;
+    font-size: 80%;
+    margin-bottom: 0.5%;
+
+}
+.sitecredit{
+    float: right;
+    color: white;
+    font-family: Courier New;
+    margin-right: 5px;
+}
+.designcredit{
+    float: right;
+    color: white;
+    font-family: Courier New;
+    margin-right: 5px;
+}
