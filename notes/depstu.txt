@@ -1,0 +1,168 @@
+if($depar=='CSE'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult1stu.php");
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult2stu.php");
+		}//for sem 2
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresultstu.php");
+		}//for sem 
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult4stu.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult5stu.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult6stu.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult7stu.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult8stu.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
+	if($depar=='CV'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult1stu.php");
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult2stu.php");
+		}//for sem 2
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult3stu.php");
+		}//for sem 
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult4stu.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult5stu.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult6stu.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult7stu.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult8stu.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
+	if($depar=='EC'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult1stu.php");
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult2stu.php");
+		}//for sem 2
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult3stu.php");
+		}//for sem 
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult4stu.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult5stu.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult6stu.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult7stu.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult8stu.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
+	if($depar=='ME'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult1stu.php");
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult2stu.php");
+		}//for sem 2
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult3stu.php");
+		}//for sem 
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult4stu.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult5stu.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult6stu.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult7stu.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult8stu.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if

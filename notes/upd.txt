@@ -1,0 +1,72 @@
+if($depar=='CSE'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:updcs/updresultformcssem1.php');
+
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:updcs/updresultformcssem2.php');
+		}//for sem 2	
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:updcs/updresultformcssem3.php');	
+		}//for sem 3 //end of if conditions
+	}//end of department if
+	elseif ($depar=='ME') {
+		if($sem=='1'){
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');
+
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');
+		}//for sem 2	
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');	
+		}//for sem 3 //end of if conditions
+	}//end of department if
+	elseif ($depar=='CV') {
+		if($sem=='1'){
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');
+
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');
+		}//for sem 2	
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');	
+		}//for sem 3 //end of if conditions
+	}//end of department if
+	elseif ($depar=='EC') {
+		if($sem=='1'){
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');
+
+		}//for sem 1
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');
+		}//for sem 2	
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['rest']=$user;
+			header('location:#');	
+		}//for sem 3 //end of if conditions
+	}//end of department if

@@ -1,0 +1,168 @@
+if($depar=='CSE'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult1tea.php");
+		}
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult2tea.php");
+		}
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult3tea.php");
+		}
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult4tea.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult5tea.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult6tea.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult7tea.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcs/csresult8tea.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
+	if($depar=='CV'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult1tea.php");
+		}
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult2tea.php");
+		}
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult3tea.php");
+		}
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult4tea.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult5tea.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult6tea.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult7tea.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewcv/cvresult8tea.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
+	if($depar=='EC'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult1tea.php");
+		}
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult2tea.php");
+		}
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult3tea.php");
+		}
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult4tea.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult5tea.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult6tea.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult7tea.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewec/ecresult8tea.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
+	if($depar=='ME'){
+		if($sem=='1'){
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult1tea.php");
+		}
+		elseif ($sem=='2') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult2tea.php");
+		}
+		elseif ($sem=='3') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult3tea.php");
+		}
+		elseif ($sem=='4') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult4tea.php");
+		}//for sem 4
+		elseif ($sem=='5') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult5tea.php");
+		}//for sem 5
+		elseif ($sem=='6') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult6tea.php");
+		}//for sem 6
+		elseif ($sem=='7') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult7tea.php");
+		}//for sem 7
+		elseif ($sem=='8') {
+			session_start();
+				$_SESSION['csres']=$user;
+			header("location:viewme/meresult8tea.php");
+		}//for sem 8 //end of if conditions
+	}//end of department if
